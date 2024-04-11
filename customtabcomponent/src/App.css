@@ -1,0 +1,27 @@
+.main{
+  align-items: center;
+  border: 1px solid lightcoral;
+  width: 30%;
+  margin: auto;
+  margin-top: 10%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tabs{
+   display: flex;
+   gap: 1px;
+}
+
+button{
+  padding: 5px 15px;
+  color: white;
+  background-color: rgb(38, 75, 74);
+  cursor: pointer;
+  border: 0px;
+}
+.selected {
+  text-decoration: underline;
+  color: black;
+  background-color: lightgrey;
+}
