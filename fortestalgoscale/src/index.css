@@ -1,0 +1,33 @@
+*{
+  text-decoration: none;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+}
+
+.oterdiv{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card img{
+     width: 440px;
+     height: 300px;
+     object-fit: contain;
+}
+
+
+
+.card li{
+  text-align: left;
+  text-overflow: ellipsis;
+}
+
+.card{
+  background-color: aqua;
+  width: 440px;
+  /* height: 400px; */
+}

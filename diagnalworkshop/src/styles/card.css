@@ -1,0 +1,134 @@
+.card{
+    width: 100px;
+    aspect-ratio: 2/3;
+}
+
+
+/*Between 200px and 317px */
+
+@media only screen and (min-width: 200px)  and (max-width: 317px){
+    .card img {
+        /* height: 140px; */
+        width: 90px;
+        aspect-ratio: 2/3;
+    }
+  
+    .ott-list p {
+      font-size: 11px;
+      
+    }
+    
+  }
+  
+  /* Between 317px and 476px */
+  @media only screen and (min-width: 317px)  and (max-width: 476px){
+    .card img {
+        /* height: 200px; */
+        width: 110px;
+        aspect-ratio: 2/3;
+    }
+  
+    .card p {
+      font-size: 14px;
+    }
+  
+  }
+  @media only screen and (min-width: 360px)  and (max-width: 740px){
+    .card img {
+        /* height: 200px; */
+        width: 100px;
+        aspect-ratio: 2/3;
+    }
+  
+    .ott-list p {
+      font-size: 14px;
+    }
+  
+  }
+  @media only screen and (min-width: 412px)  and (max-width: 915px){
+    .card img {
+        /* height: 200px; */
+        width: 115px;
+        aspect-ratio: 2/3;
+    }
+  
+    .ott-list p {
+      font-size: 14px;
+    }
+  
+  }
+  
+  /* Between 476px and 617px */
+  @media only screen and (min-width: 476px)  and (max-width: 617px){
+    .card {
+      /* padding: 5px; */
+    }
+    
+    .card img {
+        /* height: 180px; */
+        width: 140px;
+        aspect-ratio: 2/3;
+    }
+  
+    .card p {
+      font-size: 18px;
+    }
+  }
+  
+  /* Between 617px and 776px */
+  @media only screen and (min-width: 617px)  and (max-width: 776px){
+    .card {
+      /* padding: 10px; */
+    }
+    
+    .card img {
+        /* height: 200px; */
+        width: 160px;
+        aspect-ratio: 2/3;
+    }
+  
+    .card p {
+      font-size: 24px;
+    }
+  }
+  
+  @media only screen and (min-width: 700px)  and (max-width: 950px){
+    .card {
+      /* padding: 10px; */
+    }
+    
+    .card img {
+        /* height: 200px; */
+        width: 160px;
+        aspect-ratio: 2/3;
+    }
+  
+    .card p {
+      font-size: 24px;
+    }
+  }
+  @media only screen and (min-width: 430px)  and (max-width: 932px){
+    .card {
+      /* padding: 10px; */
+    }
+    
+    .card img {
+        /* height: 200px; */
+        width: 120px;
+        aspect-ratio: 2/3;
+    }
+  
+    .card p {
+      font-size: 17px;
+    }
+  }
+  
+  
+  .card{
+      margin-bottom: 35px;
+  }
+  
+  .card p {
+    margin: 0px;
+    color: rgb(194, 194, 194);
+  }
