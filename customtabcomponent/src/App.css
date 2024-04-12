@@ -4,8 +4,9 @@
   width: 30%;
   margin: auto;
   margin-top: 10%;
-  padding: 10px;
+  padding: 6px;
   border-radius: 5px;
+  min-height: 35vh;
 }
 
 .tabs{
@@ -14,7 +15,7 @@
 }
 
 button{
-  padding: 5px 15px;
+  padding: 10px 26px;
   color: white;
   background-color: rgb(38, 75, 74);
   cursor: pointer;
