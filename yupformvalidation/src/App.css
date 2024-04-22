@@ -1,17 +1,92 @@
-.App {
-  text-align: center;
+/* Resetting default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.form{
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Form container */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form label styles */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Form input styles */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Checkbox styles */
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Button styles */
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styles for checkboxes */
+div.checkbox-group {
+  margin-bottom: 15px;
+}
+
+/* Optional: Styles for error messages */
+.error-message {
+  color: #dc3545;
+  margin-top: 5px;
+}
+
+/* Optional: Styles for success message */
+.success-message {
+  color: #28a745;
+  margin-top: 5px;
+}
+
+.checkbox {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-
+  gap: 6px;
 }
 
-.form label{
-  margin-right: 10px;
-}
 
 .error{
   color: red;

@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import * as Yup from 'yup';
 
-const Formwithoutyup = () => {
+const Formwithyup = () => {
 
   const [formData, setFormData] = useState({
     firstName: "",
@@ -14,8 +14,9 @@ const Formwithoutyup = () => {
     age: "",
     gender: "",
     interests: [],
-    birthDate: ""
-  })
+    birthDate: "",
+    testing :"Bapan"
+})
 
   const [errors,setErrors] = useState({});
 
@@ -83,7 +84,7 @@ const Formwithoutyup = () => {
         })
   }
 
-  const handleCheckboxChange = (e)=>{
+  const handleCheckboxChange = (e)=>{ 
        const {name,checked} = e.target;
        console.log("********************")
        console.log(name, checked)
@@ -194,8 +195,8 @@ const Formwithoutyup = () => {
           </select>
           {errors.gender && <div className="error">{errors.gender}</div>}
       </div>
-      <div>
         <label>Interests:</label>
+      <div className='checkbox'>
         <label>
           <input 
              type="checkbox"
@@ -231,7 +232,6 @@ const Formwithoutyup = () => {
               type="date" 
               name="birthDate"
               value={formData.birthDate}
-              placeholder="Enter your date of birth" 
               onChange={handleChange}
                />
           {errors.birthDate && <div className="error">{errors.birthDate}</div>}     
@@ -241,4 +241,4 @@ const Formwithoutyup = () => {
   )
 }
 
-export default Formwithoutyup
+export default Formwithyup

@@ -1,10 +1,10 @@
 import './App.css';
-import Formwithoutyup from './components/Formwithoutyup';
+import Formwithyup from './components/Formwithyup';
 
 function App() {
   return (
     <div className="App">
-      <Formwithoutyup />
+      <Formwithyup />
     </div>
   );
 }
