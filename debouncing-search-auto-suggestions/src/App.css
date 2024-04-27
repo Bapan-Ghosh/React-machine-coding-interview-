@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-color: lightsteelblue;
+  height: 100vh;
+}
+
+input[type="text"]{
+  padding: 8px;
+  min-width: 30%;
+  border-radius: 20px;
+  color: black;
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+  color: rgba(255, 255, 255, 0.711);
+}
+
+.show-suggestions{
+   background-color: white;
+   width: 31%;
+   margin: auto;
+   max-height: 100%;
+   border-radius: 10px;
+  }
+  
+.show-suggestions  div{
+     color: black;
+     padding-left: 20px;
+     padding-bottom: 5px;
+     padding-right: 2px;
+     display: flex;
+     justify-self: start; 
+}
+
+.search-r:hover{
+  background-color: lightsteelblue;
+  color: white;
+  border-radius: 10px;
+}
