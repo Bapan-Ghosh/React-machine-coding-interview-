@@ -6,11 +6,10 @@ const ToDoList = () => {
     const [listData, setlistData] = useState([]);
 
     const addActivity = ()=>{
-         setlistData((prevData)=>{
-             const updatedList = [...prevData, activity]
-             setactivity('')
-             return updatedList
-         })
+         setlistData((prevData)=>[
+             ...prevData, activity
+         ])
+         setactivity('')
     }
 
     const removeActivity = (index)=>{
